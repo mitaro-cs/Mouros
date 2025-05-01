@@ -30,13 +30,13 @@ def d(a,b):
 
 def center(cl):
     m = [] # min element 
-    for p in cl:
+    for p in cl: # берем какую то точку в кластере
         sm = sum(d(p,p1) for p1 in cl)
         m.append([sm,p])
     return min(m)[1]
 
-centersA = [ center(cl) for cl in clustersA]
-centersB = [ center(cl) for cl in clustersB]
+centersA = [center(cl) for cl in clustersA]
+centersB = [center(cl) for cl in clustersB]
 
 pxa = sum(x for x,y in centersA) / 3 * 100000
 pya = sum(y for x,y in centersA) / 3 * 100000
