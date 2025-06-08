@@ -1,0 +1,13 @@
+s = open(r"HomeWork\24.2\24_2_1.txt").readline()
+
+m = 0
+for l in range(len(s)):
+    for r in range(l+m,len(s)):
+        c = s[l:r+1]
+        if "W" not in c and "R" not in c and "Q" not in c:
+            m = max(m,len(c))
+        else:
+            break
+print(m)
+
+#Answer = 110

@@ -1,0 +1,5 @@
+1 - https://kompege.ru/variant?kim=25073855 = True
+2 - https://kompege.ru/variant?kim=25086726 = True
+3 - https://kompege.ru/variant?kim=25088424 = 
+4 - https://kompege.ru/variant?kim=25093318 = 
+5 - https://kompege.ru/variant?kim=25095608 =

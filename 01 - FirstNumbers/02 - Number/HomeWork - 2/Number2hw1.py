@@ -14,4 +14,3 @@ for x1,x2,x3,x4,x5,x6,x7 in product([0,1],repeat=7):
       for i in permutations("xyzw"):
          if all(f(**dict(zip(i, line[:-1]))) == line[-1] for line in table):
             print(*i)
-            
